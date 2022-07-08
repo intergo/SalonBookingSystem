@@ -1,0 +1,107 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sms.to SMS add-on for Salon Booking\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 09:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: src/SLNSMSTOSMS/Update/Page.php:25
+msgid " needs a valid license"
+msgstr ""
+
+#: src/SLNSMSTOSMS/Update/Page.php:26
+msgid "<p>Please insert your license key"
+msgstr ""
+
+#: src/SLNSMSTOSMS/Update/Page.php:101
+msgid "active"
+msgstr ""
+
+#. Name of the plugin
+msgid "sms.to SMS add-on for Salon Booking"
+msgstr ""
+
+#: src/SLNSMSTOSMS/Update/Page.php:134
+msgid "Customer email"
+msgstr ""
+
+#: src/SLNSMSTOSMS/Update/Page.php:126
+msgid "Customer name"
+msgstr ""
+
+#: src/SLNSMSTOSMS/Update/Page.php:104
+msgid "Deactivate License"
+msgstr ""
+
+#: src/SLNSMSTOSMS/Update/Page.php:87
+msgid "Enter your license key"
+msgstr ""
+
+#: src/SLNSMSTOSMS/Update/Page.php:110
+msgid "error"
+msgstr ""
+
+#: src/SLNSMSTOSMS/Update/Page.php:142
+msgid "Expires"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://github.com/intergo/SalonBookingSystem"
+msgstr ""
+
+#: src/SLNSMSTOSMS/Update/Page.php:106
+msgid "invalid"
+msgstr ""
+
+#: src/SLNSMSTOSMS/Update/Page.php:64
+msgid "License deactivated with success"
+msgstr ""
+
+#: src/SLNSMSTOSMS/Update/Page.php:80
+msgid "License Key"
+msgstr ""
+
+#: src/SLNSMSTOSMS/Update/Page.php:97
+msgid "License State"
+msgstr ""
+
+#: src/SLNSMSTOSMS/Update/Page.php:47
+msgid "License updated with success"
+msgstr ""
+
+#: src/SLNSMSTOSMS/Update/Page.php:118
+msgid "Payment id"
+msgstr ""
+
+#. Description of the plugin
+msgid "Send sms bookings notifications using the provider sms.to"
+msgstr ""
+
+#: src/SLNSMSTOSMS/Update/Processor.php:158
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
+"href=\"%4$s\">update now</a>."
+msgstr ""
+
+#: src/SLNSMSTOSMS/Update/Processor.php:148
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" "
+"class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#. Author of the plugin
+msgid "SMSto / Plugins"
+msgstr ""
