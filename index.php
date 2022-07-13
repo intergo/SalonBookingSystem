@@ -45,7 +45,7 @@ function slnsmstosms_init_sms_provider()
 {
     global $slnsmstosms_license;
     if ($slnsmstosms_license->isValid()) {
-        SLN_Enum_SmsProvider::addService('smsto', 'sms.to SMS', 'SLNSMSTOSMS_Provider');
+        SLN_Enum_SmsProvider::addService('smsto', 'SMSto', 'SLNSMSTOSMS_Provider');
     }
 }
 
