@@ -211,19 +211,24 @@ class SLNSMSTOSMS_Update_Processor
      */
     private function api_request()
     {
-        $response = $this->updater->doCall('get_version');
-
+        $response = wp_remote_get('https://api.github.com/repos/intergo/SalonBookingSystem/releases/latest');
+        
         if (is_wp_error($response)) {
-            return $response;
+            return false;
         }
 
-        if ($response && isset($response->sections)) {
-            $response->sections = maybe_unserialize($response->sections);
+        $response = json_decode($response['body']);
+        if (!$response->draft && !$response->prerelease ) {
+            $version_info = new stdClass();
+            $version_info->new_version = $response->tag_name;
+            $version_info->slug = SLNSMSTOSMS_ITEM_SLUG;
+            $version_info->url = $response->url;
+            $version_info->package = $response->zipball_url;
         } else {
-            $response = false;
+            $version_info = false;
         }
 
-        return $response;
+        return $version_info;
     }
 
 }
