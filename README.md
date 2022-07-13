@@ -12,7 +12,7 @@ You can generate, retrieve and manage your API keys in your SMS.to dashboard und
 * Download the plugin
 * Install it inside your WordPress website
 * Go to Salon Booking “Settings > General > SMS services” and select “SMSto” option.
-* Leave empty Account ID and provide your sms.to API Key in Auth Token.
+* Leave empty Account ID and provide your SMS.to API Key in Auth Token.
 * Click on “Update” button.
  
 This add-on is included with our “Business Plan” and you can download it for free once you get a license.

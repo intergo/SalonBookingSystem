@@ -27,7 +27,7 @@ msgid "active"
 msgstr ""
 
 #. Name of the plugin
-msgid "sms.to SMS add-on for Salon Booking"
+msgid "SMS.to add-on for Salon Booking"
 msgstr ""
 
 #: src/SLNSMSTOSMS/Update/Page.php:134

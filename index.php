@@ -22,7 +22,7 @@ define('SLNSMSTOSMS_VERSION', '1.0.3');
 define('SLNSMSTOSMS_STORE_URL', 'https://github.com/intergo/SalonBookingSystem');
 define('SLNSMSTOSMS_AUTHOR', 'Intergo Telecom Ltd');
 define('SLNSMSTOSMS_ITEM_SLUG', 'smsto-addon-salon-booking');
-define('SLNSMSTOSMS_ITEM_NAME', 'sms.to SMS Addon for Salon Booking');
+define('SLNSMSTOSMS_ITEM_NAME', 'SMS.to Addon for Salon Booking');
 
 load_plugin_textdomain('slnsmstosms', false, dirname(plugin_basename(__FILE__)).'/languages');
 
