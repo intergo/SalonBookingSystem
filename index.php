@@ -2,8 +2,8 @@
 /*
   Plugin Name: sms.to SMS add-on for Salon Booking
   Description: Send sms bookings notifications using the provider sms.to
-  Version: 1.0.3
-  Plugin URI: https://github.com/intergo/SalonBookingSystem
+  Version: 1.0.4
+  Plugin URI: https://www.salonbookingsystem.com/
   Author: Intergo Telecom Ltd
   Author URI: https://sms.to/
   Text Domain: slnsmstosms
@@ -18,8 +18,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 define('SLNSMSTOSMS_PLUGIN_DIR', untrailingslashit(dirname(__FILE__)));
 define('SLNSMSTOSMS_PLUGIN_BASENAME', plugin_basename(__FILE__));
 
-define('SLNSMSTOSMS_VERSION', '1.0.3');
-define('SLNSMSTOSMS_STORE_URL', 'https://github.com/intergo/SalonBookingSystem');
+define('SLNSMSTOSMS_VERSION', '1.0.4');
+define('SLNSMSTOSMS_STORE_URL', 'https://www.salonbookingsystem.com/');
 define('SLNSMSTOSMS_AUTHOR', 'Intergo Telecom Ltd');
 define('SLNSMSTOSMS_ITEM_SLUG', 'smsto-addon-salon-booking');
 define('SLNSMSTOSMS_ITEM_NAME', 'SMS.to Addon for Salon Booking');
