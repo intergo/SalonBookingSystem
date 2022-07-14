@@ -1,6 +1,6 @@
 <?php
 /*
-  Plugin Name: sms.to SMS add-on for Salon Booking
+  Plugin Name: SMS.to SMS add-on for Salon Booking
   Description: Send sms bookings notifications using the provider sms.to
   Version: 1.0.4
   Plugin URI: https://www.salonbookingsystem.com/
