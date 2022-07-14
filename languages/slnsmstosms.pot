@@ -1,7 +1,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: sms.to SMS add-on for Salon Booking\n"
+"Project-Id-Version: SMS.to SMS add-on for Salon Booking\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-03-13 09:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
