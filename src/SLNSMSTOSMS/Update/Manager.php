@@ -112,7 +112,6 @@ class SLNSMSTOSMS_Update_Manager
      */
     public function isValid()
     {
-        return true;
         return $this->get('license_status') == 'valid';
     }
 }
