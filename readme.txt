@@ -1,4 +1,4 @@
-=== WP - Bulk SMS - by SMS.to ===
+=== SMS.to SMS Addon for Salon Booking ===
 Contributors: phalouvas, panicoschr10
 Donate link: https://sms.to
 License: GPL-3.0 license
@@ -12,6 +12,9 @@ Requires PHP: 5.6
 
 “SMSto” is an official add-on that allows you to use sms.to platform as a new SMS provider on Salon Booking plugin.
 Take advantage of this add-on to extend the SMS notification possibilities offered by this SMS provider.
+
+=== Plugin Name ===
+SMS.to SMS Addon for Salon Booking
 
 == Add-on installation and usage ==
 
