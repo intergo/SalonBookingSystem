@@ -1,6 +1,6 @@
 === WP - Bulk SMS - by SMS.to ===
 Contributors: phalouvas, panicoschr10
-Donate link: 
+Donate link: https://sms.to
 License: GPL-3.0 license
 License URI: http://www.gnu.org/licenses/gpl.html
 Tags: sms, wordpress, salonbookingsystem
