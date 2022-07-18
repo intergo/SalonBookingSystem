@@ -22,9 +22,6 @@ class SLNSMSTOSMS_Update_Manager
     public function hook_admin_init()
     {
         global $pagenow;
-        if ('plugins.php' == $pagenow || 'plugin-install.php' == $pagenow) {
-            $this->processor = new SLNSMSTOSMS_Update_Processor($this);
-        }
     }
 
     public function get($k)
