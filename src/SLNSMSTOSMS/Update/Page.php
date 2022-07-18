@@ -22,8 +22,8 @@ class SLNSMSTOSMS_Update_Page
             $licenseUrl = admin_url('/plugins.php?page='.$this->pageSlug);
             ?>
             <div id="sln-setting-error" class="updated error">
-                <h3><?php echo $this->updater->get('name').__(' needs a valid license', 'slnsmstosms') ?></h3>
-                <p><a href="<?php echo $licenseUrl ?>"><?php _e('<p>Please insert your license key', 'slnsmstosms'); ?></a>
+                <h3><?php echo esc_html($this->updater->get('name').__(' needs a valid license', 'slnsmstosms')) ?></h3>
+                <p><a href="<?php echo esc_url($licenseUrl) ?>"><?php _e('<p>Please insert your license key', 'slnsmstosms'); ?></a>
                 </p>
             </div>
             <?php
@@ -38,13 +38,13 @@ class SLNSMSTOSMS_Update_Page
             if (is_wp_error($response)) {
                 ?>
                 <div id="sln-setting-error" class="updated error">
-                    <p><?php echo 'ERROR: '.$response->get_error_code().' - '.$response->get_error_message() ?></p>
+                    <p><?php echo esc_attr('ERROR: '.$response->get_error_code().' - '.$response->get_error_message()) ?></p>
                 </div>
                 <?php
             } else {
                 ?>
                 <div id="sln-setting-error" class="updated success">
-                    <p><?php echo __('License updated with success', 'slnsmstosms') ?></p>
+                    <p><?php echo esc_attr(__('License updated with success', 'slnsmstosms')) ?></p>
                 </div>
                 <?php
             }
@@ -54,14 +54,14 @@ class SLNSMSTOSMS_Update_Page
             if (is_wp_error($response)) {
                 ?>
                 <div id="sln-setting-error" class="updated error">
-                    <p><?php echo $response->get_error_code().' - '.$response->get_error_message() ?></p>
+                    <p><?php echo esc_attr($response->get_error_code().' - '.$response->get_error_message()) ?></p>
                 </div>
                 <?php
             } else {
 
                 ?>
                 <div id="sln-setting-error" class="updated success">
-                    <p><?php echo __('License deactivated with success', 'slnsmstosms') ?></p>
+                    <p><?php echo esc_attr(__('License deactivated with success', 'slnsmstosms')) ?></p>
                 </div>
                 <?php
             }
@@ -71,8 +71,8 @@ class SLNSMSTOSMS_Update_Page
         $data    = $this->updater->get('license_data');
         ?>
         <div class="wrap">
-        <h2><?php echo $this->pageName ?></h2>
-        <form method="post" action="?page=<?php echo $this->pageSlug ?>">
+        <h2><?php echo esc_attr($this->pageName) ?></h2>
+        <form method="post" action="?page=<?php echo esc_url($this->pageSlug) ?>">
             <table class="form-table">
                 <tbody>
                 <tr valign="top">
@@ -108,7 +108,7 @@ class SLNSMSTOSMS_Update_Page
                             } else { ?>
                                 <span style="color:orange;">
                                     <?php _e('error', 'slnsmstosms'); ?>
-                                    <?php echo ' '.$status ?>
+                                    <?php echo esc_attr(' '.$status) ?>
                                 </span>
                             <?php } ?>
                         </td>
@@ -118,7 +118,7 @@ class SLNSMSTOSMS_Update_Page
                             <?php _e('Payment id', 'slnsmstosms'); ?>
                         </th>
                         <td>
-                            <?php echo $data->payment_id ?>
+                            <?php echo esc_attr($data->payment_id) ?>
                         </td>
                     </tr>
                     <tr valign="top">
@@ -126,7 +126,7 @@ class SLNSMSTOSMS_Update_Page
                             <?php _e('Customer name', 'slnsmstosms'); ?>
                         </th>
                         <td>
-                            <?php echo $data->customer_name ?>
+                            <?php echo esc_attr($data->customer_name) ?>
                         </td>
                     </tr>
                     <tr valign="top">
@@ -134,7 +134,7 @@ class SLNSMSTOSMS_Update_Page
                             <?php _e('Customer email', 'slnsmstosms'); ?>
                         </th>
                         <td>
-                            <?php echo $data->customer_email ?>
+                            <?php echo esc_attr($data->customer_email) ?>
                         </td>
                     </tr>
                     <tr valign="top">
@@ -142,7 +142,7 @@ class SLNSMSTOSMS_Update_Page
                             <?php _e('Expires', 'slnsmstosms'); ?>
                         </th>
                         <td>
-                            <?php echo $data->expires ?>
+                            <?php echo esc_attr($data->expires) ?>
                         </td>
                     </tr>
                 <?php } ?>

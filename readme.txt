@@ -6,7 +6,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 Tags: sms, wordpress, salonbookingsystem
 Requires at least: 3.0
 Tested up to: 6.0.1
-Stable tag: 1.0.7
+Stable tag: 1.0.8
 Requires PHP: 5.6
 
 
@@ -34,6 +34,8 @@ This add-on is included with our “Business Plan” and you can download it for
 * No FAQ
 
 == Changelog ==
+= 1.0.8 =
+* Fix issues raised by WordPress review
 = 1.0.7 =
 * added readme.txt
 = 1.0.6 =
