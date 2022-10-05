@@ -72,7 +72,7 @@ class SLNSMSTOSMS_Update_Page
         ?>
         <div class="wrap">
         <h2><?php echo esc_attr($this->pageName) ?></h2>
-        <form method="post" action="?page=<?php echo esc_url($this->pageSlug) ?>">
+        <form method="post" action="?page=<?php echo $this->pageSlug ?>">
             <table class="form-table">
                 <tbody>
                 <tr valign="top">

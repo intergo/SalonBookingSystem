@@ -10,6 +10,7 @@ class SLNSMSTOSMS_Provider extends SLN_Action_Sms_Abstract
             'headers' => array(
                 'authorization' => 'Bearer ' . $this->getPassword(),
                 'content-type'  => 'application/json',
+                'X-Smsto-Integration-Name'  => 'salonbookingsystem',
             ),
             'body' => json_encode(array(
                 'to'    => $this->processTo($to, $sms_prefix),
